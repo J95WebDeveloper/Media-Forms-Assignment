@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sing UP</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    
+    <!-- Register -->
+     <video src="/assets/vin.mp4" type="video/mp4" autoplay loop muted class="video"></video>
+      
+     
+     <div class="container">
+        <div class="form-background">
+            <h1> Sing up </h1>
+            <form>
+               <div class="label-content">
+                   <input type="text" placeholder=" " id="first" class="input" minlength="3" required />
+                   <label class="label"> First name </label>
+               </div>
+               <div class="label-content">
+                   <input type="text" placeholder=" " id='last' class="input" minlength="3" required />
+                   <label class="label"> Last name </label>
+               </div>
+               <div class="label-content">
+                   <input type="email" placeholder=" " class="input" minlength="3" required />
+                   <label class="label"> Email </label>
+               </div>
+               <div class="label-content">
+                   <input type="password" placeholder=" " class="input" required />
+                   <label class="label"> Password </label>
+               </div>
+               <div class="label-content">
+                   <input type="password" placeholder=" " class="input" required />
+                   <label class="label"> Confirm password </label>
+               </div>
+   
+               <div class="label-content">
+                   <input type="number" placeholder=" " class="input" min="0" max="150" required />
+                   <label class="label"> Age </label>
+               </div>
+   
+               <div class="form-gender">
+                   <label>Gender</label>
+                   <span><input type="radio" name="gender">Male</span>
+                   <span><input type="radio" name="gender">Female</span>
+               </div>
+               <div class="terms">
+                   <input type="checkbox"><small>Terms and conditions</small>
+               </div>
+               
+               <div class="submit">
+                   <input type="submit" value="Sign Up" class="submit-btn" />
+               </div>
+               <div class="account">
+                   <p> Already have an account? </p><a href="login.html">Sing in</a>
+               </div>
+           </form>
+        </div>
+     </div>
+
+     <!-- <script>
+          var word = document.getElementById('first')
+          if(word < 3){
+            alert('invalid')
+          }
+     </script> -->
+</body>
+</html>
